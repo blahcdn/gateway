@@ -1,0 +1,10 @@
+[package]
+name = "blahcdn-proxy-bin"
+version = "0.1.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+blahcdn-proxy-lib =  { path = "../lib"  }
+tokio = { version = "1", features = ["full"] }
+rustls = "0.19"

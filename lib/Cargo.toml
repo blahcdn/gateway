@@ -1,0 +1,17 @@
+[package]
+name = "blahcdn-proxy-lib"
+version = "0.1.0"
+edition = "2018"
+publish = false
+
+[dependencies]
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+http = "0.2"
+hyper-rustls = "0.22.1"
+log = "0.4.4"
+rustls = "0.19.1"
+tokio-rustls = "0.22.0"
+futures = "0.3"
+pin-project-lite = "0.2.7"
+redis = "0.21.0"
